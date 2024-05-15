@@ -1,0 +1,116 @@
+span.infos {
+    font-size: 35px;
+}
+
+span.materia {
+    font-size: 25px;
+}
+
+.card {
+    border-radius: 50px 0px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin: 20px;
+    min-height: 200px;
+    z-index: 0;
+}
+
+.card p {
+    color: #000000;
+    font-size: 20px;
+}
+
+button.button {
+    width: 80%;
+    height: 7vh;
+    flex-shrink: 0;
+
+    border-radius: 40px;
+    border: 1px solid #008ED4;
+    background: #42C6FF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFFFFF;
+    font-size: larger;
+}
+
+/********** Range Input Styles **********/
+/*Range Reset*/
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 15rem;
+}
+
+/* Removes default focus */
+input[type="range"]:focus {
+    outline: none;
+}
+
+/***** Chrome, Safari, Opera and Edge Chromium styles *****/
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #535353;
+    border-radius: 0.5rem;
+    height: 0.5rem;  
+}
+
+/* slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -12px; /* Centers thumb on the track */
+
+    /*custom styles*/
+    margin-top: -25px;
+    width: 25px;
+    height: 60px;
+    border-radius: 40px;
+    background: #3A86BD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* input[type="range"]:focus::-webkit-slider-thumb {   
+    border: 1px solid #053a5f;
+    outline: 3px solid #053a5f;
+    outline-offset: 0.125rem; 
+} */
+
+/******** Firefox styles ********/
+/* slider track */
+input[type="range"]::-moz-range-track {
+    background-color: #535353;
+    border-radius: 0.5rem;
+    height: 0.5rem;
+}
+
+/* slider thumb */
+input[type="range"]::-moz-range-thumb {
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 0; /*Removes default border-radius that FF applies*/
+
+    /*custom styles*/
+    margin-top: -25px;
+    width: 25px;
+    height: 60px;
+    border-radius: 40px;
+    background: #3A86BD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* input[type="range"]:focus::-moz-range-thumb {
+    border: 1px solid #053a5f;
+    outline: 3px solid #053a5f;
+    outline-offset: 0.125rem; 
+} */
+ 
+.swal2-success-line-tip, .swal2-success-line-long {
+	font-size: 16px !important;
+}
+
+.swal2-x-mark-line-right, .swal2-x-mark-line-left {
+	font-size: 16px !important;
+}

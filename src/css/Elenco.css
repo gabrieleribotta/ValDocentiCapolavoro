@@ -1,0 +1,60 @@
+.person-container, .person-container-val {
+    border-radius: 25px;
+    background-color: #38B3EF;
+    color: #FFFFFF;
+    padding: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 20px;
+    min-height: 160px;
+    cursor: pointer;
+}
+
+.person-container-val {
+    background-color: #677981;
+    cursor: not-allowed;
+}
+
+.person-container i, .person-container-val i {
+    position: relative;
+    top: 0;
+    font-size: 18px;
+}
+
+.person-container p, .person-container-val p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 75%;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* back to top button */
+#backToTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #38B3EF; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    border: 3px solid #008ED4;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+}
+  
+#backToTopBtn:hover {
+    background-color: #008ED4; /* Add a dark-grey background on hover */
+}

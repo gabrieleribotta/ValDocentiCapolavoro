@@ -1,0 +1,19 @@
+{
+	"SERVER": "https://managevaldocenti.onrender.com",
+	"LOGIN": "/login",
+	"LOGOUT": "/logout",
+	"TOKEN_VALIDO": "/token_valido",
+	"RUOLO": "/ruolo_utente",
+	"GET_DOCENTI_CLASSE": "/get_docenti_classe",
+	"GET_DOMANDE": "/get_domande",
+	"VALUTA_DOCENTE": "/valuta_docente",
+	"ADMIN_CONSOLE": "/admin_console",
+	"GESTIONE_VALUTAZIONI": "/start_stop_valutazioni",
+	"CARICA_STUDENTI": "/carica_studenti",
+	"CARICA_DOCENTI": "/carica_docenti",
+	"NOME_COGNOME_DOCENTE": "/get_nome_cognome_docente",
+	"GET_DOCENTI": "/get_docenti",
+	"VIEW_DOCENTE": "/view_docente",
+	"INIZIA_TERMINA_VALUTAZIONI": "/start_stop_valutazioni",
+	"SCARICA_PDF": "/scarica_pdf_valutazioni"
+}

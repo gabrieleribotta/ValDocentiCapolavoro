@@ -1,0 +1,39 @@
+.Footer {
+    background-color: #D9D9D9;
+    border: 2px solid #535353;
+    border-bottom: 0;
+    border-radius: 25px 25px 0px 0px;
+    height: calc(15vw + 25px);
+    flex-shrink: 0;
+    /* ! per non nascondere il contenuto al fondo della pagina usare 'position: sticky' e togliere la regola della larghezza */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+    transition-property: bottom;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.footer-icon {
+    color: #535353;
+    font-size: 10vw;
+}
+
+.Footer .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: calc(20vw - 15px);
+}
+
+.text-info {
+    font-size: 0.55rem;
+    color: #535353!important;
+}
+
+.Footer a {
+    color: #535353;
+    text-decoration: none!important;
+}

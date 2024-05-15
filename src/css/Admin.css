@@ -1,0 +1,62 @@
+.text-infos,
+.small-text-infos {
+	color: #535353;
+}
+.text-infos {
+	font-size: calc(2vw + 2rem);
+}
+.small-text-infos {
+	font-size: calc(1vw + 1rem);
+}
+
+.adminButton,
+.littleAdminButton {
+	transition: all 0.3s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: -moz-fit-content; /*Firefox*/
+	min-width: fit-content;
+	min-width: --webkit-fill-available; /*Safari*/
+	min-height: -moz-fit-content; /*Firefox*/
+	min-height: fit-content;
+	flex-shrink: 0;
+	border-radius: 40px;
+	border: 1px solid #008ed4;
+	background: #42c6ff;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+	color: #ffffff;
+	font-size: larger;
+}
+.adminButton {
+	width: calc(40vw - 25vw + 20%);
+	height: 7vh;
+}
+.adminButton:hover,
+.littleAdminButton:hover {
+	color: black;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	background-color: rgb(204, 204, 204);
+}
+.littleAdminButton {
+	width: calc(20vw - 12.5vw + 10%);
+	height: 3.5vh;
+}
+.adminSelect {
+	padding-left: 1%;
+}
+.tableDocenti {
+	border-top: 1px dashed black;
+	border-bottom: 1px dashed black;
+}
+.elTableDocenti {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+span {
+	font-size: calc(1.4vw + 0.75rem);
+}

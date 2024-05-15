@@ -1,0 +1,8 @@
+.text-infos {
+    color: #535353;
+    font-size: calc(2vw + 2rem);
+}
+
+span {
+    font-size: calc(1.4vw + 0.75rem);
+}
